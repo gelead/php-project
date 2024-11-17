@@ -1,0 +1,47 @@
+.main {
+    width: 100%;
+    margin: 0 150px 0 250px;
+}
+form {
+    width: 100%;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+    padding: 50px 20px 20px;
+    .add {
+        background-color: #00aa00;
+    }
+    .reset {
+        background-color: #de0000;
+    }
+}
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    input {
+        margin-top: 5px;
+        display: block;
+        width: 100%;
+        padding: 5px 10px;
+        border: 1px solid;
+        border-radius: 3px;
+    }
+    input[name="description"] {
+        height: 50px;
+    }
+    input[type="file"] {
+        border: none;
+    }
+    input:focus {
+        outline-color: aqua;
+    }
+}
+.btn {
+    width: 150px;
+    padding: 7px 10px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}

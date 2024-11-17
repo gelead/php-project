@@ -1,0 +1,50 @@
+.main {
+    width: 100%;
+    height: fit-content;
+    margin: 0 50px 0 250px;
+}
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.head {
+    background-color: #000;
+    color: #fff;
+}
+.body {
+    border: 1px solid;
+    padding: 3px 15px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+form {
+    margin-left: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+input[type='text'] {
+    border: 1px solid;
+    padding: 5px 15px;
+    margin: 15px 0 10px;
+    border-radius: 3px;
+}
+input[type='submit'] {
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.btn {
+    width: 75px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.remove {
+    background-color: red;
+}
